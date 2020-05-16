@@ -13,10 +13,10 @@ class AdministratorSeeder extends Seeder
     public function run()
     {
         $administrator = new \App\User;
-        $administrator->username = "daffaquraisy";
-        $administrator->name = "Daffa Quraisy";
+        $administrator->username = "haikalhaq";
+        $administrator->name = "Muhammad Haikal Haq";
         $administrator->level = json_encode(["ADMIN"]);
-        $administrator->email = "daffaquraisy@gmail.com";
+        $administrator->email = "23aqil@gmail.com";
         $administrator->password = Hash::make('12345678');
 
         $administrator->save();
